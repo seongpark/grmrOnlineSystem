@@ -1,0 +1,47 @@
+.menu {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 14px 10px 13px rgb(0, 0, 0, 13%);
+    font-size: 20px;
+    color: #a4a4a4;
+    background-color: #fff;
+}
+
+.menu .active {
+    color: #2E64FE;
+}
+
+.navmenu h6 {
+    margin-bottom: 0!important;
+}
+
+.card {
+    border-radius: 17px!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.cal-o {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.list {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+}
